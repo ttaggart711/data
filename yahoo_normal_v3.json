@@ -1,0 +1,1119 @@
+{
+    "base": {
+        "style": "oslo",
+        "scheme": "normal.day"
+    },
+    "definitions": {
+        "CityCenter.Class6.Label.Color": {
+            "value": "#232A31"
+        },
+        "CityCenter.Class6.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class7.Label.Color": {
+            "value": "#232A31"
+        },
+        "CityCenter.Class7.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "Sea.Label.Outline.Width": {
+            "value": 2
+        },
+        "Beach.Color": {
+            "value": "#EDEBCE"
+        },
+        "Building.Color": {
+            "value": "#E8EAED"
+        },
+        "Building.Outline.Color": {
+            "value": "#D0CDC8"
+        },
+        "Building.Label.Color": {
+            "value": "#566970"
+        },
+        "BuildingAddress.Label.Color": {
+            "value": "#703804"
+        },
+        "BuiltupArea.Color": {
+            "value": "#F1F3F4"
+        },
+        "Neighborhood.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class1.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class1.Label.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                6,
+                5,
+                7,
+                5.25,
+                14,
+                6
+            ]
+        },
+        "CityCenter.Class2.Label.Color": {
+            "value": "#232A31"
+        },
+        "CityCenter.Class2.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class2.Label.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                2,
+                6,
+                2,
+                7,
+                3.25,
+                8,
+                3.5,
+                10,
+                3.5,
+                11,
+                4,
+                12,
+                4,
+                13,
+                4.25,
+                14,
+                3,
+                20,
+                3
+            ]
+        },
+        "CityCenter.Class3.Label.Color": {
+            "value": "#232A31"
+        },
+        "CityCenter.Class3.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class3.Label.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                2,
+                6,
+                2,
+                7,
+                3.25,
+                8,
+                3.5,
+                10,
+                3.5,
+                11,
+                4,
+                12,
+                4,
+                13,
+                4.25,
+                14,
+                3,
+                20,
+                3
+            ]
+        },
+        "CityCenter.Class4.Label.Color": {
+            "value": "#232A31"
+        },
+        "CityCenter.Class4.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class4.Label.Outline.Width": {
+            "value": 5
+        },
+        "CityCenter.Class5.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "CityCenter.Class5.Label.Outline.Width": {
+            "value": 5
+        },
+        "CityCenter.Hamlet.Label.Color": {
+            "value": "#787878"
+        },
+        "CityCenter.Hamlet.Label.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Continent.Label.Color": {
+            "value": "#FF7678B3"
+        },
+        "CountryBoundary.Color": {
+            "value": "#787B8C"
+        },
+        "CountryBoundary.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                1,
+                0,
+                1,
+                1.72,
+                4,
+                2.08
+            ]
+        },
+        "CountryBoundary.Outline.Color": {
+            "value": "#E6E4E0"
+        },
+        "CountryBoundary.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                7,
+                6.44,
+                10,
+                7.22,
+                11,
+                7.94,
+                24,
+                9.44
+            ]
+        },
+        "StateBoundary.Color": {
+            "value": "#8C8F9C"
+        },
+        "StateBoundary.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                3,
+                0,
+                3,
+                1.08
+            ]
+        },
+        "StateBoundary.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                5,
+                0,
+                5,
+                3.72,
+                7,
+                3.72,
+                8,
+                4.44,
+                10,
+                4.44,
+                11,
+                5.22,
+                24,
+                6.66
+            ]
+        },
+        "CountryBoundary.Disputed.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                1,
+                0,
+                1,
+                0.72,
+                4,
+                1.08
+            ]
+        },
+        "CountryBoundary.Disputed.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                4,
+                0,
+                4,
+                3.72,
+                5,
+                4.44,
+                7,
+                4.44,
+                8,
+                5.22,
+                10,
+                5.22,
+                11,
+                5.94,
+                20,
+                5.94
+            ]
+        },
+        "StateBoundary.Disputed.Width": {
+            "value": 1.08
+        },
+        "StateBoundary.Disputed.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                5,
+                0,
+                5,
+                3.72,
+                10,
+                3.72,
+                11,
+                4.44,
+                20,
+                4.44
+            ]
+        },
+        "Country.Label.Color": {
+            "value": "#101518"
+        },
+        "Country.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "State.Label.Color": {
+            "value": "#101518"
+        },
+        "State.Label.Outline.Color": {
+            "value": "#FAFDFF"
+        },
+        "State.Label.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                8,
+                5,
+                9.25
+            ]
+        },
+        "Ferry.Line.Color": {
+            "value": "#012A6A"
+        },
+        "Ferry.Label.Color": {
+            "value": "#012A6A"
+        },
+        "Ferry.Label.Outline.Color": {
+            "value": "#99CEFF"
+        },
+        "Glacier.Color": {
+            "value": "#E8F2FF"
+        },
+        "IndustrialComplex.Color": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                "#E4EAF0",
+                11,
+                "#E1E6EA",
+                14,
+                "#DAE1E4",
+                15,
+                "#D3DCDE",
+                16,
+                "#CED8DC"
+            ]
+        },
+        "Airport.Color": {
+            "value": "#E5E6EB"
+        },
+        "Cemetery.Color": {
+            "value": "#CCE9D4"
+        },
+        "Allotment.Color": {
+            "value": "#CCE9D4"
+        },
+        "HospitalCampus.Color": {
+            "value": "#FCE8E6"
+        },
+        "PedestrianArea.Color": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                9,
+                "#E1EAF0",
+                10,
+                "#E9EDF0",
+                13,
+                "#EBEFF2",
+                14,
+                "#E9EDF0",
+                15,
+                "#DFE6EB",
+                16,
+                "#DBE1E7"
+            ]
+        },
+        "SportsComplex.Color": {
+            "value": "#CCE9D4"
+        },
+        "UniversityCampus.Color": {
+            "value": "#EBE6DD"
+        },
+        "Park.Color": {
+            "value": "#CCE9D4"
+        },
+        "Park.Label.Color": {
+            "value": "#3E7864"
+        },
+        "Park.Label.Outline.Color": {
+            "value": "#D7F2CD99"
+        },
+        "AmusementPark.Color": {
+            "value": "#CCE9D4"
+        },
+        "AnimalPark.Color": {
+            "value": "#CCE9D4"
+        },
+        "GolfCourse.Color": {
+            "value": "#CCE9D4"
+        },
+        "MilitaryBase.Color": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                7,
+                "#EAE6F966",
+                13,
+                "#EBEDF2",
+                16,
+                "#EAE6F966"
+            ]
+        },
+        "MilitaryBase.Outline.Color": {
+            "value": "#EBEDF2CC"
+        },
+        "MilitaryBase.Label.Color": {
+            "value": "#83819C"
+        },
+        "NationalPark.Color": {
+            "value": "#CCE9D4CC"
+        },
+        "Rail.Line.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0.6,
+                13,
+                0.6,
+                16,
+                1.3,
+                18,
+                1.85,
+                20,
+                1.85,
+                24,
+                4.95
+            ]
+        },
+        "Rail.Line.Color": {
+            "value": "#A0A0A0"
+        },
+        "Runway.Color": {
+            "value": "#C7CADC"
+        },
+        "BayHarbor.Label.Outline.Width": {
+            "value": 2
+        },
+        "Lake.Label.Color": {
+            "value": "#2269BF"
+        },
+        "Lake.Label.Outline.Color": {
+            "value": "#CCE6FFB3"
+        },
+        "Lake.Label.Outline.Width": {
+            "value": 2
+        },
+        "Street.Category0.Ramp.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                2.13675,
+                13,
+                2.13675,
+                14,
+                2.82975,
+                15,
+                3.5805,
+                16,
+                4.2735,
+                17,
+                5.71725001,
+                18,
+                12.87825003,
+                19,
+                16.45875002,
+                20,
+                25.0635,
+                24,
+                178.9095007
+            ]
+        },
+        "Street.Category2.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                1.108800002,
+                8,
+                1.386,
+                10,
+                1.6632,
+                11,
+                2.310000005,
+                12,
+                3.4188,
+                13,
+                2.8644,
+                14,
+                3.9732,
+                15,
+                6.560400005,
+                16,
+                10.2564,
+                17,
+                14.8764,
+                18,
+                30.8616,
+                19,
+                34.3728001,
+                20,
+                57.1956001,
+                24,
+                400.738801
+            ]
+        },
+        "Street.Category3.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0.693,
+                10,
+                0.866250002,
+                13,
+                1.155,
+                14,
+                2.6565,
+                15,
+                2.82975,
+                16,
+                5.02425,
+                17,
+                7.854,
+                18,
+                17.15175003,
+                19,
+                18.5955001,
+                20,
+                32.2245,
+                24,
+                225.3982505
+            ]
+        },
+        "Street.Category4.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                1.0395,
+                13,
+                1.0395,
+                14.5,
+                1.559250005,
+                15,
+                2.165625004,
+                16,
+                4.24462501,
+                17,
+                6.41025001,
+                18,
+                12.90712504,
+                19,
+                14.98612503,
+                20,
+                32.2245001,
+                24,
+                225.3982502
+            ]
+        },
+        "Street.Pedestrian.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                14,
+                0,
+                14,
+                0.693,
+                15,
+                1.155,
+                16,
+                2.13675,
+                17,
+                2.82975,
+                18,
+                3.5805,
+                19,
+                5.02425,
+                20,
+                5.71725001,
+                24,
+                10.74150004
+            ]
+        },
+        "Street.Walkway.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                14,
+                0,
+                14,
+                0.69,
+                20,
+                1.693,
+                24,
+                8.16
+            ]
+        },
+        "Street.Category0.Outline.Color": {
+            "value": "#F9AF0C"
+        },
+        "Street.Category0.Centerline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category1.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category2.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category3.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category4.Outline.Color": {
+            "value": "#C8C9C6"
+        },
+        "Water.0m.Color": {
+            "value": "#9CC0F9"
+        },
+        "Woodland.Label.Color": {
+            "value": "#4E855D"
+        },
+        "Woodland.Label.Outline.Color": {
+            "value": "#E6FAE199"
+        },
+        "Land.Color": {
+            "value": "#F1F3F4"
+        },
+        "Woodland.Color": {
+            "value": "#CCE9D4"
+        },
+        "UniversityCampus.Label.Color": {
+            "value": "#696E78"
+        },
+        "UniversityCampus.Label.Outline.Color": {
+            "value": "#F5F2F799"
+        },
+        "GolfCourse.Label.Color": {
+            "value": "#3E786E"
+        },
+        "GolfCourse.Label.Outline.Color": {
+            "value": "#D7F2CD99"
+        },
+        "Street.Category1.Ramp.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                2.13675,
+                13,
+                2.13675,
+                14,
+                2.82975,
+                15,
+                3.5805,
+                16,
+                4.2735,
+                17,
+                5.71725001,
+                18,
+                12.87825003,
+                19,
+                16.45875002,
+                20,
+                25.0635,
+                24,
+                143.1045003
+            ]
+        },
+        "Street.Category2.Ramp.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                3.4188,
+                14,
+                3.4188,
+                15,
+                4.5276,
+                16,
+                5.728804,
+                17,
+                6.83760,
+                18,
+                13.76760,
+                19,
+                22.9152,
+                20,
+                36.59040,
+                24,
+                200.32320
+            ]
+        },
+        "Street.Category3.Ramp.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                2.13675,
+                14,
+                2.13675,
+                15,
+                2.82975,
+                16,
+                3.5805,
+                17,
+                4.2735,
+                18,
+                8.604750,
+                19,
+                14.322,
+                20,
+                22.869,
+                24,
+                100.1962502
+            ]
+        },
+        "Street.Category4.Ramp.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                3.205125007,
+                14,
+                3.205125007,
+                15,
+                4.24462501,
+                16,
+                5.37075001,
+                17,
+                6.41025001,
+                18,
+                12.90712504,
+                19,
+                21.48300004,
+                20,
+                34.3035001,
+                24,
+                107.328375
+            ]
+        },
+        "ExtrudedBuilding.Color": {
+            "value": "#D4D6D9"
+        },
+        "Street.Category0.Color": {
+            "value": "#FDE293"
+        },
+        "Street.Category0.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                6,
+                0.5,
+                7,
+                1,
+                8,
+                0.6749999999999999,
+                14,
+                1.012500002,
+                16,
+                1.6875,
+                18,
+                2.025000004,
+                20,
+                2.025000004,
+                24,
+                4.162500005
+            ]
+        },
+        "Street.Category0.Tunnel.Color": {
+            "value": "#E3E3E3"
+        },
+        "Street.Category0.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                1.270500004,
+                5,
+                1.270500004,
+                6,
+                1.617,
+                7,
+                1.79025,
+                8,
+                1.44375,
+                9,
+                1.79025,
+                10,
+                2.6565,
+                11,
+                2.82975,
+                12,
+                3.5805,
+                13,
+                3.927000005,
+                14,
+                5.71725001,
+                15,
+                8.60475003,
+                16,
+                11.43450002,
+                17,
+                14.322,
+                18,
+                25.0635,
+                19,
+                31.47375006,
+                20,
+                50.0692501,
+                24,
+                350.658001
+            ]
+        },
+        "Street.Category1.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category1.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                9,
+                0,
+                10,
+                0.6749999999999999,
+                20,
+                0.6749999999999999,
+                24,
+                2.025000004
+            ]
+        },
+        "Street.Category1.Tunnel.Color": {
+            "value": "#D8DBE8"
+        },
+        "Street.Category1.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0.866250002,
+                5,
+                0.866250002,
+                8,
+                1.44375,
+                9,
+                1.79025,
+                10,
+                1.44375,
+                11,
+                1.963500002,
+                12,
+                2.13675,
+                13,
+                2.48325,
+                14,
+                3.5805,
+                15,
+                5.02425,
+                16,
+                7.854,
+                17,
+                10.74150004,
+                18,
+                21.48300008,
+                19,
+                24.31275005,
+                20,
+                39.32775,
+                24,
+                275.52525
+            ]
+        },
+        "Street.Category2.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category2.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                0,
+                12,
+                0,
+                13,
+                0.33749999999999997,
+                20,
+                0.6749999999999999,
+                24,
+                1.3499999999999999
+            ]
+        },
+        "Street.Category2.Tunnel.Color": {
+            "value": "#D8DBE8"
+        },
+        "Street.Category3.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category3.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                14.5,
+                0,
+                14.5,
+                0.225,
+                20,
+                0.225,
+                24,
+                0.6749999999999999
+            ]
+        },
+        "Street.Category3.Tunnel.Color": {
+            "value": "#B3B7CB"
+        },
+        "Street.Category4.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category4.Outline.Width": {
+            "value": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                14.2,
+                0.5,
+                14.2,
+                1.225,
+                20,
+                1.225,
+                24,
+                1.45
+            ]
+        },
+        "Street.Category4.Tunnel.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Walkway.Color": {
+            "value": "#B4CBB2"
+        },
+        "Street.Walkway.Tunnel.Color": {
+            "value": "#E3E3E3"
+        },
+        "Street.Pedestrian.Color": {
+            "value": "#B4CBB2"
+        },
+        "CityCenter.Class6.Label.Outline.Width": {
+            "value": 5
+        },
+        "CityCenter.Class7.Label.Outline.Width": {
+            "value": 5
+        },
+        "Rail.Outline.Color": {
+            "value": "#A0A0A0"
+        },
+        "Street.Category0.Tunnel.Outline.Color": {
+            "value": "#F9AF0C"
+        },
+        "Street.Category1.Tunnel.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category2.Tunnel.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category3.Tunnel.Outline.Color": {
+            "value": "#FFFFFF"
+        },
+        "Street.Category4.Tunnel.Outline.Color": {
+            "value": "#C8C9C6"
+        }
+    }
+}
